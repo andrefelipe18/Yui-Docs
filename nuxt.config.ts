@@ -5,4 +5,11 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxt/content"],
 
   app: {},
+
+  runtimeConfig: {
+    github_api_token: '',
+  },
+
+  imports: {
+  }
 });
